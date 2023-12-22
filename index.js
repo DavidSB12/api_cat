@@ -6,12 +6,4 @@ const routes = require('./routes/routes.js');
 // routes
 app.use('/', routes);
 
-
-app.get("/home", (req, res) => {
-    res.send("Hello World");  
-});
-
-
-
-
 app.listen(port, () => console.log(`Listening on port ${port}`));
